@@ -1,0 +1,144 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container{
+    flex : 1 !important;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-airbnb{
+    color :#fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color :black !important;
+}
+.f-info-links a{
+      text-decoration: none;
+      color : #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-social ,.f-info-links ,.f-info-brand{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    width: 100%; 
+    
+}
+
+.f-info-social i {
+    font-size: 1.5rem;
+    margin-right: 1.2rem;
+    opacity: 0.8;
+}
+.f-info-social i:hover{
+    opacity: 1;
+}
+
+
+
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: bisque;
+    flex-wrap: wrap;
+    justify-content: center;
+   text-align: center;
+   background-color: #ebebeb;
+}
+
+/* cards */
+
+.card{
+    border : none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+    width: 100%;
+}
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-links{
+    text-decoration: none !important;
+}
+#a-li-im :hover{
+    opacity : 0.8;
+}
+
+/* new page */
+.edit-btn{
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* show page */
+.show-image{
+    height: 30vh;
+}
+.form{
+    display: inline;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+
+}
+.d-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2%
+     ;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+#filters{
+    display: flex;
+    flex-wrap: wrap;       
+}
+.filter{
+text-align: center;
+margin-right: 2rem;
+margin-top: 2rem;
+opacity: 0.7;
+cursor: pointer;
+
+}
+.filter:hover{
+opacity: 1;
+
+}
+.tax-info{
+display: none;
+}
+.taxSwitch{
+  border : 1px solid black ;
+  border-radius: 10px ;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  
+}
